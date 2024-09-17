@@ -26,13 +26,9 @@
 
 .search-bar {
   background-color: rgb(214, 188, 239);
-  align-content: center;  
+  align-content: center;
 }
 
-#search-icon {
-  width: 25px;
-  margin-left: 10px;
-}
 
 .noti-prof-name {
   background-color: rgb(250, 233, 213);
