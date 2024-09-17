@@ -29,6 +29,27 @@
   align-content: center;
 }
 
+.search {
+
+  --padding: 14px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+  border-radius: 20px;
+  background: #f6f6f6;
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: 'lexend', sans-serif;
+  color: #333333;
+  margin-left: var(--padding);
+  outline: none;
+  border: none;
+  background: transparent;
+  
+}
 
 .noti-prof-name {
   background-color: rgb(250, 233, 213);
