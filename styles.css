@@ -54,12 +54,8 @@
   width: max-content;
   
   
+  
 }
-
-.header-bottom {
-  background-color:rgb(222, 164, 164);
-}
-
 .main-content {
   background-color: green;
   grid-row: 2 / 3;
@@ -136,5 +132,34 @@
 
 #account-name {
   align-self: center;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.user-greeting {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+
+#big-avatar {
+  height: 45px;
+  width: 45px;
+  justify-self: center;
+  align-self: center;
+}
+
+.greeting-message {
+  align-content: center;
+
+}
+
+.user-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: space-around;
 }
 
