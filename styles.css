@@ -14,8 +14,6 @@
 
   display: grid;
   grid-template-rows: 1fr 1fr;
-
-
 }
 
 .header-top {
@@ -32,7 +30,6 @@
 }
 
 .search {
-
   --padding: 4px;
   width: max-content;
   display: flex;
@@ -52,9 +49,6 @@
   border: none;
   background: transparent;
   width: max-content;
-  
-  
-  
 }
 
 
@@ -170,45 +164,37 @@
 .main-content {
   background-color: rgb(228, 228, 228);
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 5fr 2fr;
 }
 
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.announcements {
+.announcements, .trending {
   grid-column-start: 2;
   display: grid;
-}
-
-.trending {
-  grid-column-start: 2;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .item {
-  width: auto;
-  height: auto;
   margin: 10px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: rgb(255, 255, 255);
   border-left: 0.25rem solid green;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.item-text {
-  flex-grow: 1;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
 }
 
 .item-title {
-  font-weight: 800;
+  margin-left: 10px;
+  margin-bottom: 0px;
   font-size: 12px;
-  margin: 15px 0 0 10px;
-  padding: 0;
 }
 
 .item-description {
@@ -223,9 +209,38 @@
 }
 
 .bottom-icons {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
   display: flex;
-  gap: 8px; /* Add space between icons */
+  flex-direction: row;
+  justify-content: end;
+  gap: 8px;
+  margin-right: 10px;
 }
+
+.announcements-and-trending {
+  display: grid;
+}
+
+.announcement-item p {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.announcement-item {
+  margin-top: 0;
+}
+
+.announcement-item h6 {
+  margin-bottom: 0;
+}
+
+.announcements {
+  margin: 10;
+}
+
+.trending {
+  font-size: 12px;
+}
+
+
+
