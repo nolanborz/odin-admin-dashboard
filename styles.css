@@ -83,7 +83,6 @@
   justify-self: center;
 }
 
-
 .dashboard {
   color: white;
 }
@@ -97,7 +96,6 @@
   align-items: center;
 }
 
-
 .sidebar-icons {
   width: 30px;
   justify-self: center;
@@ -109,7 +107,6 @@
   height: 30px;
   width: 30px;
 }
-
 
 #avatar {
   vertical-align: middle;
@@ -173,11 +170,10 @@
 .main-content {
   background-color: rgb(228, 228, 228);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
+  grid-template-columns: 2fr 1fr;
 }
 
 .projects {
-  grid-column-start: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -185,8 +181,6 @@
 .announcements {
   grid-column-start: 2;
   display: grid;
-
-
 }
 
 .trending {
@@ -194,10 +188,9 @@
 }
 
 .item {
-  width: 180px;
-  height: 110px;
+  width: auto;
+  height: auto;
   margin: 10px;
-  border: rgb(0, 0, 0) 2px;
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
   border-left: 0.25rem solid green;
