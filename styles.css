@@ -1,10 +1,10 @@
 .container {
   display: grid;
-  height: 500px;
-  width: 800px;
-  grid-template-rows: 100px 400px;
-  grid-template-columns: 200px 600px;
-  border: black solid 2px;
+  height: 100vh;
+  width: auto;
+  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 190px 1fr;
+  margin: 5px;
 }
 
 .main-header {
